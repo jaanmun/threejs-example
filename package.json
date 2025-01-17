@@ -22,5 +22,7 @@
   "bugs": {
     "url": "https://github.com/jaanmun/threejs-example/issues"
   },
-  "homepage": "https://github.com/jaanmun/threejs-example#readme"
+  "homepage": "https://github.com/jaanmun/threejs-example#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
