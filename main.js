@@ -2,7 +2,10 @@ import * as THREE from "three";
 
 function main() {
   const canvas = document.querySelector("#c");
-  const renderer = new THREE.WebGLRenderer({ antialias: true, canvas });
+  const renderer = new THREE.WebGLRenderer({
+    antialias: true,
+    canvas,
+  });
 
   const fov = 75;
   const aspect = 2; // the canvas default
@@ -12,6 +15,7 @@ function main() {
   camera.position.z = 2;
 
   const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0xf9fad2);
 
   {
     const color = 0xffffff;
