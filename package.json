@@ -4,7 +4,8 @@
   "description": "this is about my threejs example project",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm "
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
     "url": "https://github.com/jaanmun/threejs-example/issues"
   },
   "homepage": "https://github.com/jaanmun/threejs-example#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
 }
